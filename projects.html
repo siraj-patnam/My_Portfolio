@@ -42,41 +42,194 @@
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <!-- Project Card 1-->
+                            <!-- Project Card 1 - MLOps Network Security Pipeline -->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Shooting Star (e-Hacks Hackathon)</h2>
-                                            <p>Implemented a modified AlexNet CNN architecture, optimized for star pattern detection, achieving 86% accuracy. Utilized advanced image processing techniques including noise reduction and contrast enhancement. Integrated astrometry.net API for precise sky coordinate mapping and constellation identification. Won the "Best Use Case of AI" award for innovative application of computer vision in astronomy.</p>
+                                            <h2 class="fw-bolder">MLOps Network Security Pipeline</h2>
+                                            <p>Evolved a phishing URL detection pipeline using Random Forest, Gradient Boosting, and Scikit-Learn, achieving 97.8% F1 score and optimizing end-to-end model performance. Deployed the solution with FastAPI, Docker, and GitHub Actions on AWS EC2, integrating MLflow tracking and real-time data ingestion from MongoDB Atlas.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">Random Forest</span>
+                                                <span class="badge bg-primary me-1">FastAPI</span>
+                                                <span class="badge bg-primary me-1">Docker</span>
+                                                <span class="badge bg-primary me-1">AWS EC2</span>
+                                                <span class="badge bg-primary me-1">MLflow</span>
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="./assets/shooting star.png" alt="Shooting Star Project" />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Project Card 2-->
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Diabetes Prediction System</h2>
-                                            <p>Utilized dataset from the National Health Portal of India, comprising 100,000+ patient records. Implemented ensemble learning approach, combining Random Forest, XGBoost, and Logistic Regression. Achieved 95% prediction accuracy on test data, with key factors being BMI, blood glucose, and family history. Built a responsive web interface using Flask backend and Bootstrap frontend.</p>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-shield-check" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">97.8%</div>
+                                                    <small>F1 Score</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="./assets/diabetes_G_1047558940.jpg" alt="Diabetes Prediction System Project" style="width: 300px; height: 400px;" />
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Project Card 3-->
+                            <!-- Project Card 2 - Twitter Sentiment Analysis -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Twitter Sentiment Analysis with BERT</h2>
+                                            <p>Fine-tuned a BERT-based transformer model using Hugging Face Transformers to classify tweets into six emotion categories, achieving 94% accuracy and a 0.92 F1-score. Constructed and deployed a scalable NLP inference pipeline using FastAPI, Docker Compose, and Nginx, enabling reliable sub-100ms real-time predictions with horizontal scaling support.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">BERT</span>
+                                                <span class="badge bg-primary me-1">Hugging Face</span>
+                                                <span class="badge bg-primary me-1">FastAPI</span>
+                                                <span class="badge bg-primary me-1">Docker</span>
+                                                <span class="badge bg-primary me-1">Nginx</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-chat-dots" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">94%</div>
+                                                    <small>Accuracy</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Card 3 - Semantic Segmentation -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Semantic Segmentation with Amazon SageMaker</h2>
+                                            <p>Made a semantic segmentation model using Amazon SageMaker's FCN with ResNet-50, tuning hyperparameters to reach 92.6% pixel accuracy and 0.605 mIOU on the IIIT-Oxford Pets dataset. Deployed the trained model as a real-time inference service using SageMaker Endpoint, enabling scalable and low-latency image segmentation predictions.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">Amazon SageMaker</span>
+                                                <span class="badge bg-primary me-1">FCN</span>
+                                                <span class="badge bg-primary me-1">ResNet-50</span>
+                                                <span class="badge bg-primary me-1">Computer Vision</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-image" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">92.6%</div>
+                                                    <small>Pixel Accuracy</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Card 4 - ML Model Comparison Sandbox -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">ML Model Comparison Sandbox</h2>
+                                            <p>Assembled an interactive model comparison app using Streamlit with support for SVM, Random Forest, and Logistic Regression, displaying real-time performance metrics. Enabled custom hyperparameter tuning and live feature selection using Scikit-Learn, with visualizations built in Matplotlib and Seaborn to aid interpretability.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">Streamlit</span>
+                                                <span class="badge bg-primary me-1">SVM</span>
+                                                <span class="badge bg-primary me-1">Random Forest</span>
+                                                <span class="badge bg-primary me-1">Matplotlib</span>
+                                                <span class="badge bg-primary me-1">Seaborn</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-graph-up" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">Interactive</div>
+                                                    <small>Real-time</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Existing Project Card 5 - Shooting Star -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Shooting Star (e-Hacks Hackathon)</h2>
+                                            <p>Implemented a modified AlexNet CNN architecture, optimized for star pattern detection, achieving 86% accuracy. Utilized advanced image processing techniques including noise reduction and contrast enhancement. Integrated astrometry.net API for precise sky coordinate mapping and constellation identification. Won the "Best Use Case of AI" award for innovative application of computer vision in astronomy.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">AlexNet</span>
+                                                <span class="badge bg-primary me-1">CNN</span>
+                                                <span class="badge bg-primary me-1">Computer Vision</span>
+                                                <span class="badge bg-primary me-1">Image Processing</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-star" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">86%</div>
+                                                    <small>Accuracy</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Existing Project Card 6 - Diabetes Prediction -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Diabetes Prediction System</h2>
+                                            <p>Utilized dataset from the National Health Portal of India, comprising 100,000+ patient records. Implemented ensemble learning approach, combining Random Forest, XGBoost, and Logistic Regression. Achieved 95% prediction accuracy on test data, with key factors being BMI, blood glucose, and family history. Built a responsive web interface using Flask backend and Bootstrap frontend.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">Random Forest</span>
+                                                <span class="badge bg-primary me-1">XGBoost</span>
+                                                <span class="badge bg-primary me-1">Flask</span>
+                                                <span class="badge bg-primary me-1">Bootstrap</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-heart-pulse" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">95%</div>
+                                                    <small>Accuracy</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Existing Project Card 7 - Forest Fire Detection -->
                             <div class="card overflow-hidden shadow rounded-4 border-0">
                                 <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
                                         <div class="p-5">
                                             <h2 class="fw-bolder">Forest Fire Detection System</h2>
                                             <p>Utilized YOLOv5 algorithm, fine-tuned on a custom dataset of 10,000+ images collected from Kaggle and NASA's fire dataset. Achieved 90% detection accuracy, with low false-positive rate in varying light and weather conditions. Implemented real-time processing capabilities, analyzing up to 30 frames per second. Developed a user-friendly dashboard using Streamlit for monitoring and alert system.</p>
+                                            <div class="mt-3">
+                                                <span class="badge bg-primary me-1">YOLOv5</span>
+                                                <span class="badge bg-primary me-1">Object Detection</span>
+                                                <span class="badge bg-primary me-1">Streamlit</span>
+                                                <span class="badge bg-primary me-1">Real-time</span>
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="./assets/iq50majy.png" alt="Forest Fire Detection System Project" />
+                                        <div class="p-3">
+                                            <div class="text-center bg-light rounded p-4">
+                                                <i class="bi bi-fire" style="font-size: 80px; color: #1e30f3;"></i>
+                                                <div class="mt-2">
+                                                    <div class="fw-bold text-primary">90%</div>
+                                                    <small>Detection Rate</small>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +251,7 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Siraj Patnam 2024</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Siraj Patnam 2025</div></div>
                     <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
