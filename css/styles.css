@@ -11732,3 +11732,89 @@ html {
     left: -2vw;
   }
 }
+
+/* Dark Mode Styles - Add this to your existing css/styles.css */
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #ffffff;
+  --bs-gray-100: #1e1e1e;
+  --bs-gray-200: #2d2d2d;
+  --bs-light: #2d2d2d;
+  --bs-white: #1e1e1e;
+  --bs-dark: #ffffff;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .navbar {
+  background-color: #1e1e1e !important;
+  border-bottom: 1px solid #333;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #2d2d2d !important;
+}
+
+[data-theme="dark"] .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .text-muted {
+  color: #b0b0b0 !important;
+}
+
+[data-theme="dark"] footer {
+  background-color: #1e1e1e !important;
+  border-top: 1px solid #333;
+}
+
+[data-theme="dark"] .shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-theme="dark"] .border-0 {
+  border: 1px solid #333 !important;
+}
+
+/* Dark mode toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.theme-toggle i {
+  font-size: 1.2rem;
+}
+
+/* Smooth transitions for theme switching */
+body, .navbar, .card, footer, .bg-white, .bg-light {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
