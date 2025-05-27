@@ -298,8 +298,8 @@ document.addEventListener('DOMContentLoaded', function() {
     addSmoothScroll();
     addScrollAnimations();
     enhanceCards();
-    // addTypingAnimation(); // Uncomment if you want typing effect
-    // createParticleBackground(); // Uncomment for particle effect
+    addTypingAnimation(); // Uncomment if you want typing effect
+    createParticleBackground(); // Uncomment for particle effect
     addLoadingStates();
     enhanceMobileMenu();
     addLazyLoading();
