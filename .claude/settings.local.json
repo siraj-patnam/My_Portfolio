@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/siraj/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/9fb49538-81f6-4028-8014-523653674b8c/ccff7cff-48ac-4ee6-9757-1713a429d7b6/skills/docx/**)",
+      "Bash(pandoc \"C:\\\\Users\\\\siraj\\\\Downloads\\\\Siraj_Patnam_Resume_Clean.docx\" -o /tmp/resume_output.md)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\siraj\\\\Downloads\\\\Siraj_Patnam_Resume_Clean.docx\" /tmp/resume_unpacked/)",
+      "Bash(pip install:*)",
+      "Bash(python -m zipfile -e \"C:\\\\Users\\\\siraj\\\\Downloads\\\\Siraj_Patnam_Resume_Clean.docx\" /tmp/resume_unpacked/)",
+      "Bash(python -c \":*)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
